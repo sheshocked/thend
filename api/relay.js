@@ -1,6 +1,6 @@
 export const config = {
-  runtime: 'nodejs',     // توصیه می‌کنم اول با nodejs تست کنی (کمتر CPU می‌خوره)
-  // runtime: 'edge',    // اگر می‌خوای Edge، این رو فعال کن و خط بالا رو کامنت کن
+  // runtime: 'nodejs',     // توصیه می‌کنم اول با nodejs تست کنی (کمتر CPU می‌خوره)
+  runtime: 'edge',    // اگر می‌خوای Edge، این رو فعال کن و خط بالا رو کامنت کن
 };
 
 const TARGET = process.env.TARGET_DOMAIN?.trim()?.replace(/\/$/, '');
